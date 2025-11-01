@@ -1,0 +1,11 @@
+This extension uses free third-party assets that may be distributed under different licenses.
+The relevant files, their origin, and their notices are listed below:
+
+/media/lizard.mp3:
+origin:  https://lizardbutton.org/download/
+license: Free Use
+
+/media/lizard-48.png:
+origin:  https://uxwing.com/bearded-dragon-icon/
+license: https://uxwing.com/license/
+
