@@ -1,3 +1,3 @@
 #!/bin/sh
 
-zip -v randomlizard.xpi icons/ media/ manifest.json lizard.js options.html options.js
+zip -v randomlizard.xpi media/* manifest.json lizard.js options.html options.js

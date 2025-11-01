@@ -1,9 +1,12 @@
 // Initialization
 let audio = new Audio(browser.runtime.getURL('media/lizard.mp3'));
-let random_lizard_chance = 0.0;
+let random_lizard_chance = 0.01;
 
 async function load_config() {
-  random_lizard_chance = (await browser.storage.sync.get("random_lizard_chance")).random_lizard_chance;
+  let config = (await browser.storage.sync.get("random_lizard_chance")).random_lizard_chance;
+  if (config) {
+    random_lizard_chance = config;
+  }
 }
 load_config();
 

@@ -21,7 +21,8 @@ refreshUI();
 
 // Initialize config to 1% by default
 (async()=>{
-	if (await getConfig() === null) {
+	let value = await getConfig();
+	if (!value && value != 0) {
 		saveConfig(0.01);
 	}
 })();
