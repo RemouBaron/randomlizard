@@ -6,7 +6,7 @@
   "description": "Adds a random chance for any click to instead play the \"lizard\" sound effect. Just to annoy yourself.",
 
   "icons": {
-    "48": "icons/lizard-48.png"
+    "48": "media/lizard-48.png"
   },
 
   "web_accessible_resources": [
