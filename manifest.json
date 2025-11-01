@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Random Lizard",
-  "version": "0.1",
+  "version": "1.0",
 
   "description": "Adds a random chance for any click to instead play the \"lizard\" sound effect. Just to annoy yourself.",
 
