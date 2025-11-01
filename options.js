@@ -9,7 +9,7 @@ async function getConfig() {
 
 async function refreshUI() {
   chance = await getConfig();
-  document.querySelector("#chance-value").innerHTML = chance*100;
+  document.querySelector("#chance-value").textContent = chance*100;
 }
 
 document.querySelector("#submit").addEventListener("click", (e)=>{
